@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bd9b3e90e0ebf447",
+        "id": "017dc02a4166afcd",
         "type": "tabs",
         "children": [
           {
-            "id": "0c62821a68aa4a23",
+            "id": "df1b2782947c8352",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/FastAPI.md",
+                "file": "Python/Пакетные менеджеры/Poetry.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/FastAPI.md",
+                "file": "Python/Пакетные менеджеры/Poetry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/FastAPI.md",
+                "file": "Python/Пакетные менеджеры/Poetry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/FastAPI.md"
+                "file": "Python/Пакетные менеджеры/Poetry.md"
               }
             }
           }
@@ -148,10 +148,33 @@
   },
   "active": "209f87079f2c1de0",
   "lastOpenFiles": [
-    "Python",
+    "Контейнеры/Docker-compose/Файлы/Airflow официальный.md",
+    "Python/Пакетные менеджеры/PIP.md",
+    "Python/Пакетные менеджеры/Poetry.md",
+    "Python/Пакетные менеджеры",
+    "Bash",
+    "Python/SQLAlchemy/Подключение к БД.md",
+    "WEB/Протоколы.md",
+    "Python/SQLAlchemy",
+    "Python/База/Общие определения.md",
+    "WEB",
+    "Python/База/Генераторы.md",
+    "Python/База/Итераторы.md",
+    "Python/База/Декораторы.md",
+    "Python/База/ООП.md",
+    "Python/База/Классы.md",
+    "Python/База/Функции.md",
+    "Python/База/Основа.md",
+    "Информация о языке.md",
+    "Python/База",
+    "Python/FastAPI/FastAPI.md",
+    "Python/FastAPI",
+    "README.md",
+    "Контейнеры/Docker-compose/Файлы",
+    "Контейнеры/docker/Файлы",
+    "Контейнеры/Docker-compose",
+    "Контейнеры/docker",
     "Без названия.canvas",
-    "Python/FastAPI.md",
-    "2024-06-18.md",
-    "README.md"
+    "2024-06-18.md"
   ]
 }
