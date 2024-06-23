@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "017dc02a4166afcd",
+        "id": "8f38e0f2b9a30f0a",
         "type": "tabs",
         "children": [
           {
-            "id": "df1b2782947c8352",
+            "id": "e6043d10535d4819",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Пакетные менеджеры/Poetry.md",
+                "file": "Python/Airflow/Dags.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Пакетные менеджеры/Poetry.md",
+                "file": "Python/Airflow/Dags.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Пакетные менеджеры/Poetry.md",
+                "file": "Python/Airflow/Dags.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Пакетные менеджеры/Poetry.md"
+                "file": "Python/Airflow/Dags.md"
               }
             }
           }
@@ -146,11 +146,19 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "209f87079f2c1de0",
+  "active": "e6043d10535d4819",
   "lastOpenFiles": [
+    "Python/Airflow/Dags.md",
+    "Python/Airflow/Без названия",
+    "Python/Airflow",
+    "Bash/Команды.md",
+    "Python/SKLearn/Часто используемые функции.md",
+    "Без названия",
+    "Python/SKLearn",
+    "README.md",
+    "Python/Пакетные менеджеры/Poetry.md",
     "Контейнеры/Docker-compose/Файлы/Airflow официальный.md",
     "Python/Пакетные менеджеры/PIP.md",
-    "Python/Пакетные менеджеры/Poetry.md",
     "Python/Пакетные менеджеры",
     "Bash",
     "Python/SQLAlchemy/Подключение к БД.md",
@@ -165,15 +173,10 @@
     "Python/База/Классы.md",
     "Python/База/Функции.md",
     "Python/База/Основа.md",
-    "Информация о языке.md",
+    "Python/Информация о языке.md",
     "Python/База",
     "Python/FastAPI/FastAPI.md",
     "Python/FastAPI",
-    "README.md",
-    "Контейнеры/Docker-compose/Файлы",
-    "Контейнеры/docker/Файлы",
-    "Контейнеры/Docker-compose",
-    "Контейнеры/docker",
     "Без названия.canvas",
     "2024-06-18.md"
   ]
