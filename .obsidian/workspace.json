@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "411e5864475fc6d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Alembic.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/База/Collections.md",
+                "file": "Python/Alembic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/База/Collections.md",
+                "file": "Python/Alembic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/База/Collections.md"
+                "file": "Python/Alembic.md"
               }
             }
           }
@@ -146,10 +159,22 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "073adec189072969",
+  "active": "411e5864475fc6d3",
   "lastOpenFiles": [
-    "Данные/Теорема СРА (Теорема Брюера).md",
+    "Python/Информация о языке.md",
+    "Python/Alembic.md",
+    "Python/Airflow/Dags.md",
+    "Python/Airflow/Функционал после завершения работы таски.md",
+    "Python/Airflow/Операторы.md",
+    "Python/Airflow/Настройка параметров через WEB интерфейс.md",
+    "Python/SQLAlchemy/Подключение к БД.md",
+    "Всякие алгоритмы/Поиск.md",
+    "Всякие алгоритмы/Сортировки.md",
     "Python/База/Collections.md",
+    "Всякие алгоритмы/Сортировки",
+    "Python/База/Основа.md",
+    "Python/База/Генераторы.md",
+    "Данные/Теорема СРА (Теорема Брюера).md",
     "Всякие алгоритмы/RAFT/Реализация на Python.md",
     "Данные",
     "Bash/Команды.md",
@@ -161,10 +186,6 @@
     "Патерны и всякое/SOLID",
     "Патерны и всякое",
     "Python/Airflow/Триггеры.md",
-    "Python/Airflow/Функционал после завершения работы таски.md",
-    "Python/Airflow/Dags.md",
-    "Python/Airflow/Настройка параметров через WEB интерфейс.md",
-    "Python/Airflow/Операторы.md",
     "img/Pasted image 20240624115209.png",
     "img",
     "Python/Airflow/Без названия",
@@ -175,16 +196,8 @@
     "Python/Пакетные менеджеры/Poetry.md",
     "Контейнеры/Docker-compose/Файлы/Airflow официальный.md",
     "Python/Пакетные менеджеры/PIP.md",
-    "Python/Пакетные менеджеры",
-    "Python/SQLAlchemy/Подключение к БД.md",
     "WEB/Протоколы.md",
-    "Python/База/Генераторы.md",
     "Python/База/Итераторы.md",
-    "Python/База/Декораторы.md",
-    "Python/База/Классы.md",
-    "Python/База/Функции.md",
-    "Python/База/Основа.md",
-    "Python/Информация о языке.md",
     "Без названия.canvas"
   ]
 }
