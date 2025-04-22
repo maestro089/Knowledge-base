@@ -1,7 +1,7 @@
 Инициализация:
 
 ``` python
-alembic init -t async alembic
+alembic init alembic
 ```
 Флаг *-t async* необязательны, он используется для ассинхроной поддержки.
 

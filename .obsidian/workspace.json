@@ -4,35 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "530ff1618f84aac1",
+        "id": "6f5bb0f6bc6a85bd",
         "type": "tabs",
         "children": [
           {
-            "id": "073adec189072969",
+            "id": "2a6268a96deaec97",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/База/Collections.md",
+                "file": "Данные/Теорема СРА (Теорема Брюера).md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Теорема СРА (Теорема Брюера)"
             }
           },
           {
-            "id": "411e5864475fc6d3",
+            "id": "ebff94dd7b73f0f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Alembic.md",
+                "file": "Контейнеры/Docker-compose/Файлы/Airflow 2.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Airflow 2"
+            }
+          },
+          {
+            "id": "25c755b3e481bf4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Контейнеры/Docker-compose/Файлы/AirFlow 3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AirFlow 3"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -51,8 +69,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
             }
           },
           {
@@ -67,7 +88,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
             }
           },
           {
@@ -75,14 +98,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 421.5
   },
   "right": {
     "id": "8a238dcd527b0c1e",
@@ -106,7 +131,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для Alembic"
             }
           },
           {
@@ -118,7 +145,9 @@
                 "file": "Python/Alembic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из Alembic"
             }
           },
           {
@@ -129,7 +158,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
             }
           },
           {
@@ -139,7 +170,9 @@
               "type": "outline",
               "state": {
                 "file": "Python/Alembic.md"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "Структура Alembic"
             }
           }
         ]
@@ -159,45 +192,45 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "411e5864475fc6d3",
+  "active": "25c755b3e481bf4c",
   "lastOpenFiles": [
+    "Контейнеры/Docker-compose/Файлы/Airflow 2.md",
+    "Контейнеры/Docker-compose/Файлы/AirFlow 3.md",
+    "Python/Airflow/Настройка параметров через WEB интерфейс.md",
+    "Базы данных/ACID.md",
+    "Контейнеры/Docker-compose/Файлы/Postgres.md",
+    "Без названия",
+    "Данные/Теорема СРА (Теорема Брюера).md",
+    "Базы данных",
+    "Патерны и всякое/SOLID.md",
+    "Bash/Команды.md",
+    "Python/SQLAlchemy/Подключение к БД.md",
+    "Python/SKLearn/Часто используемые функции.md",
+    "Python/grpc/Начало.md",
+    "WEB/Протоколы.md",
+    "Без названия.canvas",
+    "2025-03-04.md",
+    "Всякие алгоритмы/Сортировки.md",
+    "Всякие алгоритмы/RAFT/Реализация на Python.md",
+    "Всякие алгоритмы/Поиск.md",
+    "img/Pasted image 20240624115209.png",
     "Python/Информация о языке.md",
+    "Python/FastAPI/FastAPI.md",
+    "README.md",
     "Python/Alembic.md",
+    "Python/База/Collections.md",
+    "Python/grpc",
     "Python/Airflow/Dags.md",
     "Python/Airflow/Функционал после завершения работы таски.md",
     "Python/Airflow/Операторы.md",
-    "Python/Airflow/Настройка параметров через WEB интерфейс.md",
-    "Python/SQLAlchemy/Подключение к БД.md",
-    "Всякие алгоритмы/Поиск.md",
-    "Всякие алгоритмы/Сортировки.md",
-    "Python/База/Collections.md",
     "Всякие алгоритмы/Сортировки",
     "Python/База/Основа.md",
     "Python/База/Генераторы.md",
-    "Данные/Теорема СРА (Теорема Брюера).md",
-    "Всякие алгоритмы/RAFT/Реализация на Python.md",
     "Данные",
-    "Bash/Команды.md",
-    "Python/База/Общие определения.md",
     "Всякие алгоритмы/RAFT",
     "Всякие алгоритмы",
-    "Python/База/ООП.md",
-    "Патерны и всякое/SOLID.md",
     "Патерны и всякое/SOLID",
     "Патерны и всякое",
-    "Python/Airflow/Триггеры.md",
-    "img/Pasted image 20240624115209.png",
-    "img",
-    "Python/Airflow/Без названия",
-    "Python/Airflow",
-    "Python/SKLearn/Часто используемые функции.md",
-    "Python/SKLearn",
-    "README.md",
-    "Python/Пакетные менеджеры/Poetry.md",
-    "Контейнеры/Docker-compose/Файлы/Airflow официальный.md",
-    "Python/Пакетные менеджеры/PIP.md",
-    "WEB/Протоколы.md",
-    "Python/База/Итераторы.md",
-    "Без названия.canvas"
+    "img"
   ]
 }
