@@ -44,7 +44,7 @@ PYSPARK_DRIVER_PYTHON: ipython
 PYSPARK_SUBMIT_ARGS: "--master spark://spark-master:7077 pyspark-shell"  
 volumes:  
 - ./notebooks:/home/jovyan/work```
-
+```
 При работе с PySpark нужно устанавливать одинаковую версию для spark-master, spark-worker и в окружении Python, иначе могут возникать ошибки при работе
 
 Пример Python кода
