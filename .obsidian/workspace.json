@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "6f5bb0f6bc6a85bd",
+        "id": "9a1dd955349258e3",
         "type": "tabs",
         "children": [
           {
-            "id": "2a6268a96deaec97",
+            "id": "732cd13d5e5e71b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Данные/Теорема СРА (Теорема Брюера).md",
+                "file": "Контейнеры/Docker-compose/Файлы/Spark.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Теорема СРА (Теорема Брюера)"
-            }
-          },
-          {
-            "id": "ebff94dd7b73f0f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Контейнеры/Docker-compose/Файлы/Airflow 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Airflow 2"
-            }
-          },
-          {
-            "id": "25c755b3e481bf4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Контейнеры/Docker-compose/Файлы/AirFlow 3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AirFlow 3"
+              "title": "Spark"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,15 +163,20 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "25c755b3e481bf4c",
+  "active": "732cd13d5e5e71b6",
   "lastOpenFiles": [
-    "Контейнеры/Docker-compose/Файлы/Airflow 2.md",
     "Контейнеры/Docker-compose/Файлы/AirFlow 3.md",
-    "Python/Airflow/Настройка параметров через WEB интерфейс.md",
-    "Базы данных/ACID.md",
     "Контейнеры/Docker-compose/Файлы/Postgres.md",
-    "Без названия",
+    "Контейнеры/Docker-compose/Файлы/Spark.md",
+    "Контейнеры/Docker-compose/Файлы/Airflow 2.md",
+    "Python/Airflow/Dags.md",
+    "Python/Airflow/Функционал после завершения работы таски.md",
+    "Python/Airflow/Операторы.md",
+    "Python/Airflow/Настройка параметров через WEB интерфейс.md",
     "Данные/Теорема СРА (Теорема Брюера).md",
+    "README.md",
+    "Базы данных/ACID.md",
+    "Без названия",
     "Базы данных",
     "Патерны и всякое/SOLID.md",
     "Bash/Команды.md",
@@ -216,16 +192,11 @@
     "img/Pasted image 20240624115209.png",
     "Python/Информация о языке.md",
     "Python/FastAPI/FastAPI.md",
-    "README.md",
     "Python/Alembic.md",
     "Python/База/Collections.md",
     "Python/grpc",
-    "Python/Airflow/Dags.md",
-    "Python/Airflow/Функционал после завершения работы таски.md",
-    "Python/Airflow/Операторы.md",
     "Всякие алгоритмы/Сортировки",
     "Python/База/Основа.md",
-    "Python/База/Генераторы.md",
     "Данные",
     "Всякие алгоритмы/RAFT",
     "Всякие алгоритмы",
