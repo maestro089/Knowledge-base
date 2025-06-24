@@ -63,3 +63,112 @@ df = spark.createDataFrame(data, columns)
 
 df.show()
 ```
+
+### Добавил пару строк для работы с Postgres
+
+```docker
+version: '3'
+
+  
+services:
+
+  spark-master:
+
+    image: bitnami/spark:3.5.0
+
+    ports:
+
+      - "8080:8080"
+
+      - "7077:7077"
+
+    environment:
+
+      SPARK_MODE: master
+
+      SPARK_MASTER_HOST: spark-master
+
+      SPARK_MASTER_PORT: 7077
+
+      SPARK_MASTER_WEBUI_PORT: 8080
+
+      SPARK_WORKER_CORES: 2
+
+      SPARK_WORKER_MEMORY: 2G
+
+      SPARK_EXECUTOR_CORES: 2
+
+      SPARK_EXECUTOR_MEMORY: 2G
+
+      # Передаем опцию для загрузки JDBC драйвера
+
+      SPARK_SUBMIT_OPTIONS: "--jars /opt/bitnami/spark/jars/postgresql-42.5.6.jar"
+
+    volumes:
+
+      - ./notebooks:/opt/bitnami/spark/work-dir
+
+      - ./drivers/postgresql-42.5.6.jar:/opt/bitnami/spark/jars/postgresql-42.5.6.jar
+
+  
+
+  spark-worker:
+
+    image: bitnami/spark:3.5.0
+
+    depends_on:
+
+      - spark-master
+
+    environment:
+
+      SPARK_MODE: worker
+
+      SPARK_MASTER_URL: spark://spark-master:7077
+
+      SPARK_WORKER_CORES: 2
+
+      SPARK_WORKER_MEMORY: 2G
+
+      SPARK_EXECUTOR_CORES: 2
+
+      SPARK_EXECUTOR_MEMORY: 2G
+
+      SPARK_SUBMIT_OPTIONS: "--jars /opt/bitnami/spark/jars/postgresql-42.5.6.jar"
+
+    ports:
+
+      - "8081:8081"
+
+    volumes:
+
+      - ./notebooks:/opt/bitnami/spark/work-dir
+
+      - ./drivers/postgresql-42.5.6.jar:/opt/bitnami/spark/jars/postgresql-42.5.6.jar
+
+  
+
+  jupyter-notebook:
+
+    image: jupyter/pyspark-notebook:python-3.11
+
+    ports:
+
+      - "8888:8888"
+
+      - "4040:4040"
+
+    environment:
+
+      PYSPARK_DRIVER_PYTHON: ipython
+
+      PYSPARK_SUBMIT_ARGS: "--master spark://spark-master:7077 --jars /opt/bitnami/spark/jars/postgresql-42.5.6.jar pyspark-shell"
+
+    volumes:
+
+      - ./notebooks:/home/jovyan/work
+
+      - ./drivers/postgresql-42.5.6.jar:/opt/bitnami/spark/jars/postgresql-42.5.6.jar
+```
+
+Нужно в папку с проектом создать папку drivers и положить туда драйвер

@@ -1,0 +1,1 @@
+Устанавливал образ: https://hub.docker.com/r/chadongstad/greenplum-docker/
