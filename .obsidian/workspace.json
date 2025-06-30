@@ -8,35 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "732cd13d5e5e71b6",
+            "id": "c10f40dd440012b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Базы данных/Postgre/Docker.md",
+                "file": "Базы данных/Postgre/Готовый SQL команды.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker"
+              "title": "Готовый SQL команды"
             }
           },
           {
-            "id": "c57a34ecb2c4592f",
+            "id": "95a1af004b2ae636",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Базы данных/Postgre/Теория.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Теория"
+            }
+          },
+          {
+            "id": "ef436a60a28d4656",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Базы данных/Postgre/Теория.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Теория"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -178,10 +192,14 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "c57a34ecb2c4592f",
+  "active": "ef436a60a28d4656",
   "lastOpenFiles": [
-    "Базы данных/Greenplum/Docker.md",
+    "Базы данных/Postgre/Термины.md",
+    "Базы данных/Postgre/Теория.md",
+    "Базы данных/Postgre/Готовый SQL команды.md",
     "Базы данных/Postgre/Docker.md",
+    "README.md",
+    "Базы данных/Greenplum/Docker.md",
     "Контейнеры/Docker-compose/Файлы/Spark.md",
     "Базы данных/Greenplum",
     "Базы данных/Postgre",
@@ -192,7 +210,6 @@
     "Python/Airflow/Операторы.md",
     "Python/Airflow/Настройка параметров через WEB интерфейс.md",
     "Данные/Теорема СРА (Теорема Брюера).md",
-    "README.md",
     "Базы данных/ACID.md",
     "Базы данных",
     "Патерны и всякое/SOLID.md",
@@ -208,9 +225,6 @@
     "Всякие алгоритмы/Поиск.md",
     "img/Pasted image 20240624115209.png",
     "Python/Информация о языке.md",
-    "Python/FastAPI/FastAPI.md",
-    "Python/Alembic.md",
-    "Python/База/Collections.md",
     "Python/grpc",
     "Всякие алгоритмы/Сортировки",
     "Данные",
