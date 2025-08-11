@@ -161,6 +161,8 @@
   },
   "active": "8bd4ad6b74861d14",
   "lastOpenFiles": [
+    "SPARK/OracleDataLoader 1.ipynb",
+    "SPARK/OracleDataLoader.ipynb",
     "SPARK/Усоряем загрузку с ORACLE.md",
     "Базы данных/Oracle/Функции.md",
     "SPARK",
@@ -195,9 +197,7 @@
     "Базы данных/ACID.md",
     "Базы данных",
     "Патерны и всякое/SOLID.md",
-    "Bash/Команды.md",
     "img/Pasted image 20240624115209.png",
-    "Python/grpc",
-    "Всякие алгоритмы/Сортировки"
+    "Python/grpc"
   ]
 }
